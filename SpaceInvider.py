@@ -10,11 +10,12 @@ def refresh():
     fen1.__init__()
 
 #Fonction permettant le mouvement du vaisseau avec la clavier
+ListeBullet=[]
+
 def Clavier(event):
 
     global PosX, PosY
     touche = event.keysym
-    print (PosX)
 
     #déplacement vers la gauche et limitation aux bordures
     if touche == 'Left' and PosX > 15:
@@ -30,14 +31,18 @@ def Clavier(event):
     Canevas.coords(SpaceCadet, PosX -10, PosY -10, PosX +10, PosY +10)
 
 def Shot(PosX):
+    #Création et lancement de la balle
     global PosY, PosBulletY
-
+    
     PosBulletX = PosX
     PosBulletY = 640
+
     Bullet = Canevas.create_oval(PosBulletX -2, PosBulletY -2, PosBulletX +2, PosBulletY +2, fill='green')
-    
-    PosBulletY -=10
-    Canevas.coords(Bullet, PosBulletX -2, PosBulletY -2, PosBulletX +2, PosBulletY +2)
+
+    ListeBullet.append([Bullet,PosBulletX,PosBulletY])
+
+    print(ListeBullet)
+
 
 ## Affichage Tk ##
 
