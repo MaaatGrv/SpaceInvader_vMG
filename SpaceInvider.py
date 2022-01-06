@@ -43,7 +43,6 @@ def Shot(PosX):
 
     print(ListeBullet)
 
-
 ## Affichage Tk ##
 
 fen1 = Tk()
