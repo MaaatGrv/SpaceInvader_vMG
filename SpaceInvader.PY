@@ -1,3 +1,11 @@
+###                          À FAIRE                         ###
+#                                                              #
+#   Trouver un moyen de faire les a/r des vaisseaux ennemis    #
+#   Ajouter des vaisseaux ennemis                              #
+#   Ajouter les tirs ennemis                                   #
+#   Ajouter les vies du ship et des vilains                    #  
+              
+
 import tkinter as tk
  
 SCREEN = 917, 688
