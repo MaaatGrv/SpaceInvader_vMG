@@ -1,7 +1,8 @@
-###                          À FAIRE                         ###
-#                                                              #
-#   Ajouter des vaisseaux ennemis                              #
-#   Ajouter les vies du ship et des vilains                    #  
+###             À FAIRE                           ###
+#                                                   #
+#   Ajouter des vaisseaux ennemis en bloc           #
+#   Gestion de la vie du spaceship à faire          # 
+#   Gestion du menu de démarrage etc                #
               
 
 import tkinter as tk
