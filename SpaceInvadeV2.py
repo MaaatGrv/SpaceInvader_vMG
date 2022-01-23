@@ -6,9 +6,9 @@
 Author : Mathis Gorvien (@MatGrv)
 Date : January 2022
 
-SpaceInvader vMG
+SpaceInvader vMG (School Project)
 
-Il est possible d'ajouter des niveaux si l'ont veut à partir de la ligne 45
+Il est possible d'ajouter des niveaux si l'on veut à partir de la ligne 45
 /!\ Certains ennemis peuvent avoir plusieurs points de vies cependant ils ont la même apparence :)
 """       
 
