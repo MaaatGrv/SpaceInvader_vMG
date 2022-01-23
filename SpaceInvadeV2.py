@@ -1,7 +1,3 @@
-###             À FAIRE                           ###
-#                                                   #
-#   Affichage de Game Over et Victoire              #
-
 """
 Author : Mathis Gorvien (@MatGrv)
 Date : January 2022
